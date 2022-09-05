@@ -1,0 +1,103 @@
+* {Margin: 0; padding: 0; box-sizing: border-box;}
+* {font-family: 'Rubik', sans-serif;}
+
+
+#networkBank, #mobileNum, #amount, #password {font-size: 15px; color: springgreen;}
+
+#transferError, #airtimeError, #operatorError, #accountnumError, #enteramountError, #pinError, #banknetworkError, #selectError{color: red; font-size: 12px;}
+#operator {padding: 10px 20px; font-size: 20px; font-weight: 600; text-align: center; border-radius: 15px; background-color: #b2dbee; border: 1px solid gainsboro; justify-content: center; align-items: center;}
+#select {padding: 10px 20px; font-size: 16px; font-weight: 600; text-align: center; border-radius: 15px; background-color: #b2dbee; border: 1px solid gainsboro; background-attachment: fixed; justify-content: center; align-items: center}
+#bankNetwork, #accountNum, #enterAmount, #pin {padding: 10px 25px; font-size: 16px; font-weight: 600; text-align: center; border-radius: 5px; background-color: #b2dbee; border: 1px solid gainsboro; font-weight: 400}
+#verify {padding: 10px 50px; font-size: 20px; font-weight: 400; text-align: center; border-radius: 15px; background-color: #b2dbee; border: #b2dbee;}
+#services h2 {font-weight: 200;}
+.home {width: 100%; display: block; align-items: center; padding-bottom: 61px; background-repeat: no-repeat; background-position: center center; justify-content: space-between; text-align: center; background-image: url(/IMG/6.gif); background-size: cover; color: whitesmoke;}
+.home .bank h1 {font-size: 40px;}
+.home .text1 {text-decoration: none;}
+.home .text1 h2 {font-weight: 300; font-size: 25px;}
+
+
+
+
+/* HOVER */
+
+#verify:hover {
+    background-color: rgb(206, 245, 147); color: black; border: rgb(206, 245, 147);
+    font-weight: 400;
+}
+#operator:hover {
+    background-color: whitesmoke; color: black;
+    font-weight: 400;
+}
+#select:hover {
+    background-color: whitesmoke; color: black;
+    font-weight: 400;
+}
+#bankNetwork:hover {
+    background-color: whitesmoke; color: black;
+    font-weight: 400;
+}
+#accountNum:hover {
+    background-color: whitesmoke; color: black;
+    font-weight: 400;
+}
+#enterAmount:hover {
+    background-color: whitesmoke; color: black;
+    font-weight: 400;
+}
+#pin:hover {
+    background-color: whitesmoke; color: black;
+    font-weight: 400;
+}
+
+
+
+
+/* MEDIA QUERY */
+
+@media (max-width: 768px){
+    .home {width: 100%; display: block; align-items: center; padding-bottom: 43px; background-repeat: no-repeat; background-position: center center; justify-content: space-between; text-align: center; background-image: url(/IMG/6.gif); background-size: cover; color: whitesmoke; background-attachment: fixed;}
+    .home .bank h1 {font-size: 35px;}
+    .home .text1 {text-decoration: none;}
+    #services h2 {font-weight: 200; font-size: 25px;}
+
+    #operator {padding: 10px; font-size: 15px; font-weight: 600; text-align: center; border-radius: 10px; background-color: #b2dbee; border: 1px solid gainsboro;}
+    #select {padding: 5px 10px; font-size: 15px; font-weight: 600; text-align: center; border-radius: 10px; background-color: #b2dbee; border: 1px solid gainsboro;}
+    #bankNetwork, #accountNum, #enterAmount, #pin {padding: 8px 20px; font-size: 15px; font-weight: 600; text-align: center; border-radius: 5px; background-color: #b2dbee; border: 1px solid gainsboro; font-weight: 400}
+    #verify {padding: 5px 15px; font-size: 15px; font-weight: 600; text-align: center; border-radius: 10px; background-color: greenyellow; border: greenyellow;}
+    #messageTxt {font-size: 15px; font-weight: 600; text-align: center;}
+}
+
+@media (max-width: 425px){
+    .home .bank h1 {font-size: 27px;}
+    .home .text1 {text-decoration: none;}
+    #services h2 {font-weight: 200; font-size: 20px;}
+
+    #operator {padding: 10px; font-size: 12px; font-weight: 600; text-align: center; border-radius: 10px; background-color: #b2dbee; border: 1px solid gainsboro;}
+    #select {padding: 5px 10px; font-size: 12px; font-weight: 600; text-align: center; border-radius: 10px; background-color: #b2dbee; border: 1px solid gainsboro;}
+    #bankNetwork, #accountNum, #enterAmount, #pin {padding: 8px 20px; font-size: 12px; font-weight: 600; text-align: center; border-radius: 5px; background-color: #b2dbee; border: 1px solid gainsboro; font-weight: 400}
+    #verify {padding: 5px 15px; font-size: 15px; font-weight: 600; text-align: center; border-radius: 10px; background-color: greenyellow; border: greenyellow;}
+    #messageTxt {font-size: 12px; font-weight: 600; text-align: center;}
+}
+
+@media (max-width: 375px){
+    .home .bank h1 {font-size: 25px;}
+    .home .text1 {text-decoration: none;}
+    #services h2 {font-weight: 200; font-size: 18px;}
+
+    #operator {padding: 10px; font-size: 10px; font-weight: 600; text-align: center; border-radius: 10px; background-color: #b2dbee; border: 1px solid gainsboro;}
+    #select {padding: 5px 10px; font-size: 10px; font-weight: 600; text-align: center; border-radius: 10px; background-color: #b2dbee; border: 1px solid gainsboro;}
+    #bankNetwork, #accountNum, #enterAmount, #pin {padding: 8px 20px; font-size: 10px; font-weight: 600; text-align: center; border-radius: 5px; background-color: #b2dbee; border: 1px solid gainsboro; font-weight: 400}
+    #verify {padding: 5px 15px; font-size: 15px; font-weight: 600; text-align: center; border-radius: 10px; background-color: greenyellow; border: greenyellow;}
+    #messageTxt {font-size: 10px; font-weight: 600; text-align: center;}
+}
+
+@media (max-width: 320px){
+    .home .bank h1 {font-size: 20px;}
+    .home .text1 {text-decoration: none;}
+    #services h2 {font-weight: 200; font-size: 18px;}
+
+    #operator {padding: 10px; font-size: 10px; font-weight: 600; text-align: center; border-radius: 10px; background-color: #b2dbee; border: 1px solid gainsboro;}
+    #select {padding: 5px 10px; font-size: 10px; font-weight: 600; text-align: center; border-radius: 10px; background-color: #b2dbee; border: 1px solid gainsboro;}
+    #bankNetwork, #accountNum, #enterAmount, #pin {padding: 8px 20px; font-size: 10px; font-weight: 600; text-align: center; border-radius: 5px; background-color: #b2dbee; border: 1px solid gainsboro; font-weight: 400}
+    #verify {padding: 5px 15px; font-size: 15px; font-weight: 600; text-align: center; border-radius: 10px; background-color: greenyellow; border: greenyellow;}
+}

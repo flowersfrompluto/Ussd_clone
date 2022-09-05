@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+<body>
+
+    <div class="home">
+        
+        <div class="bank">
+            <br><h1>WELCOME TO GLOBAL BANK</h1>
+        </div>
+        <br>
+        <label for="services" id="services"><h2>Kindly select a service</h2></label>
+        <br>
+        <select id="operator">
+            <option value="">Select a Service</option><br>
+            <option value="Transfer">Transfer</option><br>
+            <option value="Airtime">Airtime</option><br>
+            <option value="">Data</option><br>
+            <option value="">Bill Payment</option><br>
+            <option value="">Check Balance</option><br>
+        </select><br>
+        <label id="operatorError"></label><br>
+        <form action="">
+            <select id="select">
+                <option value="">Select</option><br>
+                <option value="Bank">Bank Name</option><br>
+                <option value="Network">Network</option><br>
+            </select><br>
+            <label id="selectError"></label><br>
+
+                <label id="networkBank"></label><br>
+                <input type="type" id="bankNetwork" placeholder=""> <br>
+                <label id="banknetworkError"></label><br>
+                
+                <label id="mobileNum"></label><br>
+                <input type="number" id="accountNum" placeholder=""> <br>
+                <label id="accountnumError"></label><br>
+                
+                <label id="amount"></label><br>
+                <input type="number" id="enterAmount" placeholder=""> <br>
+                <label id="enteramountError"></label><br>
+
+                <label id="password"></label><br>
+                <input type="password" id="pin" placeholder="" maxlength="4" minlength="4"> <br>
+                <label id="pinError"></label><br>
+                
+                <br>
+                <button type="button" id="verify">Send</button>
+                <br><br>
+                <label for="" id="messageTxt">*You will be charged #8.98 for using this service</label>
+        </form>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
