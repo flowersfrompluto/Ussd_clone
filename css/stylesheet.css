@@ -55,7 +55,7 @@
 /* MEDIA QUERY */
 
 @media (max-width: 768px){
-    .home {width: 100%; display: block; align-items: center; padding-bottom: 43px; background-repeat: no-repeat; background-position: center center; justify-content: space-between; text-align: center; background-image: url(/IMG/6.gif); background-size: cover; color: whitesmoke; background-attachment: fixed;}
+    .home {width: 100%; display: block; align-items: center; padding-bottom: 43px; background-repeat: no-repeat; background-position: center center; justify-content: space-between; text-align: center; background-image: url(../IMG/6.gif); background-size: cover; color: whitesmoke; background-attachment: fixed;}
     .home .bank h1 {font-size: 35px;}
     .home .text1 {text-decoration: none;}
     #services h2 {font-weight: 200; font-size: 25px;}
