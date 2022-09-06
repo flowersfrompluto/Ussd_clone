@@ -109,7 +109,7 @@ function transfer(){
                     )
                 }
             }else{
-                banknetworkError.innerHTML="<i>Input right Bank! bank name is case sensitive</i>"
+                banknetworkError.innerHTML="<i>Input right Bank! Bank name is case sensitive</i>"
             }
         }else{
             selectError.innerHTML="Choose right option"
@@ -132,7 +132,7 @@ function transfer(){
                     )
                 }
             }else{
-                banknetworkError.innerHTML="<i>Input right network !</i>"
+                banknetworkError.innerHTML="<i>Input right network! Network name is case sensitive</i>"
             }
         }else{
             selectError.innerHTML="Choose right option"
@@ -152,4 +152,9 @@ function endService(){
     pin.value = ""
     bankNetwork.value = ""
     select.value = ""
+    networkBank.innerHTML = ""
+    mobileNum.innerHTML = ""
+    amount.innerHTML = ""
+    password.innerHTML = ""
+
 }
